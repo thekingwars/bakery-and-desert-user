@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('./assets/bellaria/css/style.css');
+@import url('./assets/bellaria/css/bootstrap.css');
+@import url('./assets/bellaria/css/responsive.css');
+
+
+
+/*Plugins*/
+@import url('./assets/bellaria/plugins/revolution/css/navigation.css');
+@import url('./assets/bellaria/plugins/revolution/css/layers.css');
+@import url('./assets/bellaria/plugins/revolution/css/settings.css');

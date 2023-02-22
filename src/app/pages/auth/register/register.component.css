@@ -1,0 +1,23 @@
+figure{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type='date']{
+  position:relative;
+	display:block;
+	width:100%;
+	line-height:20px;
+	padding:10px 20px;
+	height:42px;
+	color: #4b4342;
+	font-size:17px;
+	border:1px solid #edecec;
+	background-color: #ffffff;
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
