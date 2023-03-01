@@ -8,3 +8,15 @@
 @import url('./assets/bellaria/plugins/revolution/css/navigation.css');
 @import url('./assets/bellaria/plugins/revolution/css/layers.css');
 @import url('./assets/bellaria/plugins/revolution/css/settings.css');
+
+
+
+button:disabled{
+  background-color: rgb(202, 195, 195);
+  border: none;
+}
+
+button:disabled:hover{
+  color: white;
+  cursor: no-drop;
+}
