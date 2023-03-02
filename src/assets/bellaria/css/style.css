@@ -1920,7 +1920,17 @@ img{
 	max-width:100%;
 	height:auto;
 }
-
+.principal img {
+	width: 235px;
+	margin-left: -19px;
+}
+.footerp img {
+	width: 300px;
+}
+.Positionimg img {
+	width: 160px;
+	margin-left: 5px;
+}
 hr{
 	border-top:1px solid #9a9a9a;
 	margin-top: .6em;
