@@ -7,7 +7,7 @@
   <div class="main-box">
     <div class="menu-box">
       <div class="logo principal">
-        <a href="index.html">
+        <a routerLink="/home" routerLinkActive="current">
           <img
             src="assets/bellaria/images/logo.png"
             alt="logo de bakery and desert pasteleria"
@@ -25,19 +25,20 @@
             id="navbarSupportedContent"
           >
             <ul class="navigation menu-left clearfix">
-              <li class="dropdown">
-                <a href="index.html">Home</a>
-              </li>
-              <li class="dropdown">
-                <a href="blog-showcase.html">Blog</a>
+              <li routerLink="/home" class="dropdown">
+                <a>Home</a>
               </li>
             </ul>
 
             <ul class="navigation menu-right clearfix">
-              <li class="dropdown">
-                <a href="http://localhost:4200/#/home/shop">Shop</a>
+              <li
+                routerLink="/home/shop"
+                routerLinkActive="current"
+                class="dropdown"
+              >
+                <a>Shop</a>
               </li>
-              <li><a href="contact.html">Contacts</a></li>
+              <!-- <li><a href="contact.html">Contacts</a></li> -->
             </ul>
           </div>
         </nav>
@@ -90,8 +91,8 @@
                 <div class="shopping-cart-total">
                   <strong>Subtotal:</strong> $97.00
                 </div>
-                <a href="http://localhost:4200/#/home/cart" class="theme-btn">View Cart</a>
-                <a href="http://localhost:4200/#/home/cart" class="theme-btn">Checkout</a>
+                <a routerLink="/home/cart" class="theme-btn">View Cart</a>
+                <a href="checkout.html" class="theme-btn">Checkout</a>
               </div>
             </div>
             <!--end shopping-cart -->
