@@ -2016,7 +2016,7 @@ hr{
 	top:0px;
 	width:100%;
 	z-index:999;
-	background-color: rgba(255,255,255,1);
+	background-color: #846361;
 }
 
 .main-header .main-box{
@@ -2033,7 +2033,7 @@ hr{
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #846361;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: bottom;
     -webkit-mask-size: cover;
@@ -9387,7 +9387,6 @@ iframe#gmap_canvas {
 }
 
 .sidebar-widget:not(.search-widget):before{
-    content: '';
     width: 87px;
     height: 36px;
     display: inline-block;
@@ -9402,7 +9401,6 @@ iframe#gmap_canvas {
 }
 
 .sidebar-widget:not(.search-widget):after{
-    content: '';
     background-image: url(../images/icons/widget_after.jpg);
     width: 26px;
     height: 25px;
@@ -10053,7 +10051,7 @@ iframe#gmap_canvas {
 	position: relative;
 	float: right;
 	min-width: 270px;
-	background-color: #f2f2f2;
+	background-color: #342151;
 }
 
 .shop-upper-box .select2-container{
@@ -10181,7 +10179,7 @@ iframe#gmap_canvas {
 }
 
 .shop-item .name a{
-	color: #4b4342;
+	color: rgba(255, 255, 255, 1.00);;
 	display: inline-block;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
@@ -11159,7 +11157,7 @@ iframe#gmap_canvas {
 
 .login-form .form-group label{
 	position:relative;
-	color: #4b4342;
+	color: #ffffff;
 	font-weight:400;
 	font-size:17px;
 	margin-bottom: 0;
@@ -11177,8 +11175,8 @@ iframe#gmap_canvas {
 	height:42px;
 	color: #4b4342;
 	font-size:17px;
-	border:1px solid #edecec;
-	background-color: #ffffff;
+	border:2px solid #846361;
+	background-color: #CCCCCC;
 	-webkit-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;

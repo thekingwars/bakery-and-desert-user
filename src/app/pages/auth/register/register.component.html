@@ -9,8 +9,9 @@
           title="bakery and desert logo"
         />
       </figure>
-
-      <h3>Para registrarte necesitamos los siguientes datos</h3>
+<div class="text-center colorN">
+  <h3>Para registrarte necesitamos los siguientes datos</h3>
+</div>
       <!--Login Form-->
       <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
         <div class="row">
@@ -82,7 +83,7 @@
           </button>
         </div>
 
-        <div routerLink="/auth/login" class="form-group pass">
+        <div routerLink="/auth/login" class="form-group pass text-center">
           <a class="psw">Si tienes una cuenta click aqui</a>
         </div>
       </form>
